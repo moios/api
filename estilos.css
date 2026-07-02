@@ -1,0 +1,43 @@
+/* --- Estilos generales --- */
+body {
+    background-color: #f4f6f9;
+}
+
+/* --- Título de la aplicación --- */
+.titulo-app {
+    font-weight: 700;
+    color: #032541; /* Azul oscuro característico de TMDB */
+}
+
+/* --- Cards --- */
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15) !important;
+}
+
+.card-img-top {
+    height: 350px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-weight: 600;
+    color: #032541;
+}
+
+/* --- Descripción con límite de líneas --- */
+.descripcion {
+    font-size: 0.9rem;
+    color: #555;
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* Muestra máximo 4 líneas */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
