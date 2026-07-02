@@ -1,7 +1,7 @@
 // --- Configuración de la API ---
 // Reemplaza la siguiente clave por tu propia API Key de TMDB.
 // Puedes obtenerla gratis en: https://www.themoviedb.org/settings/api
-const API_KEY = "COLOCA_AQUI_TU_API_KEY";
+const API_KEY = "cc8b02e76c7aec99689a1b5a877f1892";
 
 const URL_BASE = "https://api.themoviedb.org/3";
 const URL_IMAGENES = "https://image.tmdb.org/t/p/w500";
